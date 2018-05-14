@@ -1,0 +1,37 @@
+* , :after , :before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $white;
+  height: 100%;
+  margin: 0;
+
+}
+
+a {
+  color: $white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease 0s;
+}
+
+//Typography
+
+p {
+  text-size-adjust: 100%;
+  word-wrap: break-word;
+}
+
+.project__content {
+  color: $Gray-Dark;
+  font: normal 400 14px/27px $Merriweather;
+  margin-top: 45px;
+  text-align: left;
+}
+
+.img {
+  display: block;
+	max-width: 100%;
+	height: auto;
+}

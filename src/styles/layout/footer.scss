@@ -1,0 +1,12 @@
+.footer {
+  color:  $Gray-Light;
+  font: normal 400 12px/26px "Montserrat", sans-serif;
+  margin-bottom: 25px;
+  text-align: center;
+
+
+  @include laptop-min {
+    width: 60%;
+    margin-left: 40%;
+  }
+}

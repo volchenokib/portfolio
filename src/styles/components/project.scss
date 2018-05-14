@@ -1,0 +1,46 @@
+.project {
+  border-bottom: 1px solid $Gray-Extra-Light;
+  max-width: 860px;
+  margin: 0 auto 80px auto;
+
+  &__subtitle {
+    color: $Gray-Regular;
+    font: normal 400 12px/24px 'Montserrat', sans-serif;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  &__title {
+    color:  $Gray-Dark;
+    font: normal 700 26px/28.6px $Merriweather;
+    margin: 10px 0;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  &__image {
+    background-color: $Gray-Dark;
+    width: 100%;
+    background-size: cover;
+    height: auto;
+    margin-bottom: 32px;
+    max-width: 100%;
+  }
+
+  &__conent {
+
+  }
+
+  &__bottom-wrap {
+    margin: 50px 0 50px;
+    width: 100%;
+
+
+    & a:first-child {
+      margin-right: 20px;
+    }
+  }
+}

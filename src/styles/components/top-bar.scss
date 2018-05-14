@@ -1,0 +1,31 @@
+.top-bar {
+  background-color: $white;
+  border-bottom: 1px solid $Gray-Extra-Light;
+  height: 80px;
+  margin-left: -20px;
+  min-width: 60%;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+
+  @include laptop {
+    left: 20px;
+    position:absolute;
+    top: 0;
+    min-width: 100%;
+  }
+
+  &__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 860px;
+  }
+
+  &__title {
+    color: $Gray-Dark;
+    font: normal 700 30px $Merriweather;
+  }
+}

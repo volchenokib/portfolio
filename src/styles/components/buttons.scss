@@ -1,0 +1,16 @@
+.button {
+  background-color: $Gray-Dark;
+  color: $white;
+  display: inline-block;
+  font: normal 400 11px/40px 'Montserrat', sans-serif;
+  letter-spacing: .5px;
+  line-height: 40px;
+  padding: 0 24px;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $Gray-Transparent;
+    color: $white;
+
+  }
+}

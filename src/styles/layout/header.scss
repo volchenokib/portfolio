@@ -1,0 +1,56 @@
+.header {
+  background-color: #E8F3EC;
+  background: url("../img/header-bg.jpg");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+
+
+  @include laptop-min {
+    height: 100%;
+    position:fixed;
+    width:40%;
+    margin-right:60%;
+  }
+
+  &__overlay {
+    background-color: $Black-Transparent-Dark;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__wrap {
+    bottom: 5%;
+    position: absolute;
+    width: 100%;
+    padding: 0 58px;
+
+    @include tablet {
+      padding: 0 20px;
+    }
+  }
+
+  &__logo {
+    width: 100%;
+  }
+
+  &__title {
+    color: $white;
+    font: normal 700 48px $Merriweather;
+    margin-bottom: 10px;
+
+    @include mobileM {
+      font-size: 40px;
+    }
+  }
+
+
+  &__subtitle {
+    color: $white;
+    display: block;
+    font: normal 700 15px/24px $Merriweather;
+    letter-spacing: .5px;
+  }
+}

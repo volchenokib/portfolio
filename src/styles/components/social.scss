@@ -1,0 +1,32 @@
+.social {
+  border-top: 1px solid $white;
+  padding-top: 4px;
+
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    margin-right: 13px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    display: block;
+    height:12px;
+    width: 22px;
+  }
+
+  &__link-icon {
+    fill: $white;
+    font-size: 16px;
+    height:15px;
+    width: 25px;
+
+  }
+}
